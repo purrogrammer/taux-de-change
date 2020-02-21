@@ -1,5 +1,7 @@
 body {
-  background-color: hotpink;
+  background-image: url("coin.jpeg");
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: green;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -8,6 +10,8 @@ body {
 }
 
 h1{
+  color: whitesmoke;
+  text-shadow: 1px 1px hotpink;
   margin: 0;
   margin-bottom: .5rem;
 }
@@ -20,10 +24,11 @@ h1{
 }
 
 select {
-  margin-left: .5rem;
+  margin-left: 2rem;
 }
 
 .equals {
   font-weight: bold;
   font-size: 2rem;
+  color: whitesmoke;
 }
